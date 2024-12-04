@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TRISHNA</title>
+    <meta
+      name="description"
+      content="An exploding objects effect made with three.js."
+    />
+    <meta
+      name="keywords"
+      content="webgl, 3d, objects, exploding, shatter, fragment, animation, template, javascript"
+    />
+    <!-- <meta name="author" content="Codrops" /> -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/ldt4auk.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+
+  <body class="demo-3 loading">
+    <main>
+      <div id="container"></div>
+      <div class="frame">
+        <div class="frame__demos">
+          <a href="index.html" class="frame__demo">Home</a>
+          <a href="index2.html" class="frame__demo ">Services</a>
+          <a href="index3.html" class="frame__demo  frame__demo--current">Clients</a>
+          <a href="index4.html" class="frame__demo">Contact</a><br />
+        </div>
+        <div class="frame__deco">
+          <span class="frame__deco-inner">TRISHNA</span>
+        </div>
+      </div>
+      <!-- /frame -->
+      <div class="content">
+        <div class="content__item">
+          <button class="content__button">Take me in</button>
+        </div>
+        <div class="content__item content__item--details">
+          <h3 class="content__location">One Stop Solution</h3>
+          <h1 class="content__title">Trishna</h1>
+          <p class="content__date">In the realm of Trishna, desire is both the spark and the fire.</p>
+        </div>
+        <div
+          class="content__item content__item--details content__item--columns"
+        >
+		  
+          <div class="content__inner">
+            <span class="content__inner-item content__inner-item--date"
+              >What We Do</span
+            >
+            <span class="content__inner-item">We’ve</span>
+            <span class="content__inner-item">got everything</span>
+            <span class="content__inner-item">you need</span>
+			<span class="content__inner-item">to launch</span>
+            <span class="content__inner-item">and grow</span>
+            <span class="content__inner-item">your</span>
+            <span class="content__inner-item">business</span>
+          </div>
+
+		  
+          <div class="content__inner">
+            <span class="content__inner-item content__inner-item--date"
+              ></span
+            >
+            <span class="content__inner-item">Web Development</span>
+			<br/>
+            <span class="content__inner-item">IT Consulting</span>
+			<br/>
+			<span class="content__inner-item">Mobile App Development</span>
+			<br/>
+			<span class="content__inner-item">Digital Marketing</span>
+			<br/>
+			<span class="content__inner-item">IT Support and Maintenance</span>
+			<br/>
+			<span class="content__inner-item">Cloud Computing Services</span>
+          </div>
+
+		</div>
+      </div>
+    </main>
+    <script src="js/egg.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/demo3.js"></script>
+  </body>
+</html>
