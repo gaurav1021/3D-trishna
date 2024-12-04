@@ -1,0 +1,1 @@
+document.getElementByClassName("content__button").click();
